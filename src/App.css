@@ -19,11 +19,12 @@
   src: url("./assets/fonts/PaulGrotesk-Bold-Trail.otf");
 }
 
-.hero {
+body {
   background: rgb(41, 37, 29);
   background: linear-gradient(
     171deg,
     rgba(41, 37, 29, 1) 0%,
     rgba(17, 17, 17, 1) 100%
   );
+  background-repeat: no-repeat;
 }
