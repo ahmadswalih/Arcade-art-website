@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MONSETA";
+  src: url("./assets/fonts/Monesta-Light-DEMO.otf");
+}
+@font-face {
+  font-family: "PaulThin";
+  src: url("./assets/fonts/PaulGrotesk-Thin-Trail.otf");
+}
+@font-face {
+  font-family: "PaulRegular";
+  src: url("./assets/fonts/PaulGrotesk-Regular-Trail.otf");
+}
+@font-face {
+  font-family: "PaulBold";
+  src: url("./assets/fonts/PaulGrotesk-Bold-Trail.otf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero {
+  background: rgb(41, 37, 29);
+  background: linear-gradient(
+    171deg,
+    rgba(41, 37, 29, 1) 0%,
+    rgba(17, 17, 17, 1) 100%
+  );
 }
